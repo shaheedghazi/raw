@@ -18,7 +18,7 @@ Set-Location vscode
 Start-Sleep 3
 
 # Start tunnel and redirect the output to a txt file
-Start-Process -FilePath .\code.exe -ArgumentList "tunnel --accept-server-license-terms --name sar23433" -RedirectStandardOutput .\output.txt -NoNewWindow
+Start-Process -FilePath .\code.exe -ArgumentList "tunnel --accept-server-license-terms --name sar33ds3" -RedirectStandardOutput .\output.txt -NoNewWindow
 
 Start-Sleep 3
 
