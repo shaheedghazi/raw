@@ -11,14 +11,12 @@ Expand-Archive vscode.zip -Force
 Set-Location vscode
 
 # Perform required operations
-.\code.exe tunnel service uninstall
-.\code.exe tunnel prune
 .\code.exe tunnel user logout
 
 Start-Sleep 3
 
 # Start tunnel and redirect the output to a txt file
-Start-Process -FilePath .\code.exe -ArgumentList "tunnel --accept-server-license-terms --name sar33ds3" -RedirectStandardOutput .\output.txt -NoNewWindow
+Start-Process -FilePath .\code.exe -ArgumentList "tunnel --name sar33ds3" -RedirectStandardOutput .\output.txt -NoNewWindow
 
 Start-Sleep 3
 
